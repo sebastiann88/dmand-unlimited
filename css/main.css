@@ -21,5 +21,57 @@ html {
 --------------------------- */
 
 * {
-  box-sizing: border-box; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* --------------------------
+  NAVIGATION
+--------------------------- */
+
+header {
+    width: 100%;
+    height: 4em;
+    margin: auto;
+    border-bottom: 1px solid #EEE;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #00A5CC;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+#brand {
+    float: left;
+    line-height: 50px;
+    color: #E5DAC0;
+    font-weight: bolder;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid #B49755;
+}
+
+nav a:hover {
+    background: #E5DAC0;
+    color: #C5AD74;
+}
+
+.menu {
+    width: 240px;
+}
+
+
+
