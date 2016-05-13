@@ -28,7 +28,12 @@ html {
 
 body {
     display: flex;
-    flex-direction: clolumn;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-wrapper {
+    flex: 1;
 }
 
 /* --------------------------
@@ -146,6 +151,16 @@ nav a:hover {
 
 .relative {
     position: relative;
+}
+
+/* --------------------------
+  FOOTER
+--------------------------- */
+
+footer {
+    text-align: center;
+    padding: 1.75em 0;
+    background: #E5DAC0;
 }
 
 
