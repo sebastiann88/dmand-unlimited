@@ -39,7 +39,7 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: #00A5CC;
+    color: #F0EADC;
 }
 
 .menu li {
@@ -61,17 +61,62 @@ nav {
 nav a {
     display: block;
     padding: 15px 0;
-    border-bottom: 1px solid #B49755;
+    border-bottom: 1px solid #C5AD74;;
+    color: #F0EADC;
 }
 
 nav a:hover {
     background: #E5DAC0;
-    color: #C5AD74;
+    color: #FFF;
 }
 
 .menu {
     width: 240px;
+    height: 100%;
+    position: absolute;
+    background: #D9C9A3;
+    left: -240px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
+.menu-icon {
+    float: left;
+    padding: 10px 20px;
+    background: #E5DAC0;
+    color: #987D3E;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#menuToggle {
+    display: none;
+}
+
+#menuToggle:checked ~ .menu {
+    position: absolute;
+    left: 0;
+}
+
+/* --------------------------
+  CLEARFIX
+--------------------------- */
+
+.group::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* --------------------------
+  CLEARFIX
+--------------------------- */
+
+.relative {
+    position: relative;
+}
 
 
