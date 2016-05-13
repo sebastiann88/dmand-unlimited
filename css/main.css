@@ -126,4 +126,17 @@ header h2 {
     text-align: center;
 }
 
+.shoppingCart {
+    float: right;
+    padding: 10px 20px;
+    background: #E5DAC0;
+    color: #987D3E;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-shadow:none;
+    border:none;
+    box-shadow:none;
+}
+
 
