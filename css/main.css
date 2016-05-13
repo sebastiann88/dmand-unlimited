@@ -159,6 +159,19 @@ img {
     width: 100%;
 }
 
+figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0.75em;
+    right: 0.75em;
+    z-index: 5;
+}
+
 /* --------------------------
   FOOTER
 --------------------------- */
