@@ -121,11 +121,13 @@ h3, tera {
 h4, giga {
     font-size: 1.2656rem;
     line-height: 1.1852;
+    font-weight: normal;
 }
 
 h5, .mega {
     font-size: 1.1250rem;
     line-height: 1.3333;
+    font-weight: normal;
 }
 
 h6, .kilo {
