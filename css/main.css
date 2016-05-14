@@ -52,6 +52,11 @@ header h2 {
     text-align: center;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .shoppingCart {
     display: flex;
     height: 3em;
@@ -157,6 +162,11 @@ nav a:hover {
     text-decoration: none;
 }
 
+.nav {
+    display: none;
+    overflow: hidden;
+}
+
 
 /* --------------------------
   CLEARFIX
@@ -225,5 +235,60 @@ footer {
     padding: 1.75em 0;
     background: #E5DAC0;
 }
+
+/* --------------------------
+  MEDIA QUERIES
+--------------------------- */
+
+@media (min-width: 769px) {
+    
+    .main-header {
+        display: flex;
+        width: 100%;  
+    }
+    
+    .menu {
+        display: none;
+        left: 0px;
+        width: 100%;
+    }
+    
+    .nav {
+        display: flex;
+        overflow: visible;
+        background: #D9C9A3;
+    }
+    
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        width: 100%;
+        background: #D9C9A3;
+    }
+    
+    .nav a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        padding: 15px 0;
+        border-bottom: 1px solid #C5AD74;;
+        color: #F0EADC;
+    }
+    
+    #menuToggle:checked ~ .menu {
+        display: none;
+        overflow: hidden;
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+}
+
+
+
+
+
 
 

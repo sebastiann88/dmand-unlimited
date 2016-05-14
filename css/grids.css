@@ -34,7 +34,7 @@
     width: 75%;
 }
 
-@media (min-width: 515px) {
+@media (min-width: 769px) {
     .unit-m-hidden {
         visibility: hidden;
         display: none;
