@@ -65,8 +65,8 @@ header h2 {
     display: flex;
     height: 3em;
     padding: 10px 20px;
-    background: #E5DAC0;
-    color: #987D3E;
+    background: #FFF;
+    color: #2c5279;
     cursor: pointer;
     margin-top: 5px;
     border-radius: 5px;
@@ -248,7 +248,11 @@ figure {
 footer {
     text-align: center;
     padding: 1.75em 0;
-    background: #E5DAC0;
+    background: #2c5279;
+}
+
+footer p {
+    color: #fff;
 }
 
 /* --------------------------
