@@ -186,6 +186,10 @@ nav a:hover {
     width: 110px;
 }
 
+.unit-spacing {
+   padding: 1.5%; 
+}
+
 .relative {
     position: relative;
 }
