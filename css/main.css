@@ -232,7 +232,7 @@ figure {
 .order-now:hover {
     color: #E5DAC0;
     background: #987D3E;
-    transition: 200s;
+    transition: 200ms;
 }
 
 /* --------------------------
@@ -289,6 +289,7 @@ footer {
         justify-content: space-around;
         list-style-type: none;
         width: 100%;
+        margin: 0 auto;
         background: #D9C9A3;
     }
     
@@ -297,7 +298,7 @@ footer {
         flex-direction: row;
         text-decoration: none;
         padding: 15px 0;
-        border-bottom: 1px solid #C5AD74;;
+        border-bottom: none;
         color: #F0EADC;
     }
     
@@ -314,17 +315,29 @@ footer {
     .main-wrapper {
         max-width: 80%;   
     }
+    
+    .nav ul {
+        width: 90%;   
+    }
 }
 
 @media (min-width: 60.063em) {
     .main-wrapper {
         max-width: 70%;   
     }
+    
+    .nav ul {
+        width: 80%;   
+    }
 }
 
 @media (min-width: 64.063em) {
     .main-wrapper {
         max-width: 60%;   
+    }
+    
+    .nav ul {
+        width: 70%;   
     }
 }
 
