@@ -160,6 +160,7 @@ nav a:hover {
     color: #E5DAC0;
     text-align: center;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .nav {
@@ -228,6 +229,12 @@ figure {
     box-shadow:none;
 }
 
+.order-now:hover {
+    color: #E5DAC0;
+    background: #987D3E;
+    transition: 200s;
+}
+
 /* --------------------------
   FOOTER
 --------------------------- */
@@ -258,6 +265,16 @@ footer {
         display: none;
         left: 0px;
         width: 100%;
+    }
+    
+    .menu-icon {
+        display: none;
+        overflow: hidden;
+    }
+    
+    #cart {
+        display: none;
+        overflow: hidden;
     }
     
     .nav {
