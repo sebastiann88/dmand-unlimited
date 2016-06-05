@@ -234,6 +234,10 @@ footer p {
 }
 
 @media (min-width: 80.063em) {
+    .main-wrapper {
+        max-width: 50%;   
+    }
+    
     .logo {
         max-width: 24em;
     }
