@@ -78,6 +78,7 @@ figure {
 
 .caption {
     position: absolute;
+    color: #FFF;
     bottom: 0.75em;
     right: 0.75em;
     z-index: 2;
@@ -170,16 +171,20 @@ footer p {
         list-style-type: none;
         width: 100%;
         margin: 0 auto;
-        background: #2c5279;;
+        background: #2c5279;
     }
     
     .nav ul a {
         display: flex;
         flex-direction: row;
         text-decoration: none;
-        padding: 15px 0;
+        padding: 15px 0 0 0;
         border-bottom: none;
-        color: #F0EADC;
+        color: #FFF;
+    }
+    
+    .nav ul a:hover {
+        border-bottom: 1px solid #FFF;
     }
     
     #menuToggle:checked ~ .menu {
