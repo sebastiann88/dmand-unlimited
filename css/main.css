@@ -103,6 +103,13 @@ figure {
     transition: 200ms;
 }
 
+#service-icons {
+    display: flex;
+    border-radius: 50%;
+    width: 8em;
+    margin: 0 auto;
+}
+
 /* --------------------------
   FOOTER
 --------------------------- */
