@@ -15,35 +15,43 @@
         HEADER
     -->
     <div class="footer-flex relative">
-    <header class="main-header clear">
-        <input type="checkbox" id="menuToggle">
-        <label for="menuToggle" class="menu-icon">&#9776;</label>
+    <header class="main-header">
+        <div class="mobile-nav">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">&#9776;</label>
+            
+            <a class="logo hide-logo" href="index.html">
+                <img src="images/dmand-unlimited-logo.png" alt="company-logo">
+            </a>
+            
+            <button id="cart" class="shopping-cart">&#9776;</button>
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="products-and-services.html">Products and Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
         
-        <a class="logo hide-logo" href="index.html">
-            <img src="images/dmand-unlimited-logo.png" alt="company-logo">
-        </a>
-        
-        <button id="cart" class="shopping-cart">&#9776;</button>
-        
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="products-and-services.html">Products and Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="desktop-nav">
+            <a class="logo show-logo" href="index.html">
+                <img src="images/dmand-unlimited-logo.png" alt="company-logo">
+            </a>
+                
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="products-and-services.html">Products and Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><button class="shopping-cart">&#9776;</button></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-        
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="products-and-services.html">Products and Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><button class="shopping-cart">&#9776;</button></li>
-        </ul>
-    </nav>
     
     <!--
         MAIN CONTENT
