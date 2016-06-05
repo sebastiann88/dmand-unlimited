@@ -110,6 +110,10 @@ figure {
     margin: 0 auto;
 }
 
+#service-icons ~ p {
+    text-align: center;
+}
+
 /* --------------------------
   FOOTER
 --------------------------- */
