@@ -127,86 +127,11 @@ footer p {
         max-width: 90%;
         margin: 0 auto;
     }
-    
-    .logo {
-        max-width: 16em;   
-    }
-    
-    .main-header {
-        display: flex;
-        width: 100%;  
-    }
-    
-    .menu {
-        display: none;
-        left: 0px;
-        width: 100%;
-    }
-    
-    .menu-icon {
-        display: none;
-        overflow: hidden;
-    }
-    
-    .shopping-cart {
-        color: #2c5279;
-        background: #FFF;
-    }
-    
-    #cart {
-        display: none;
-        overflow: hidden;
-    }
-    
-    .nav {
-        display: flex;
-        overflow: visible;
-        background: #2c5279;;
-    }
-    
-    .nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style-type: none;
-        width: 100%;
-        margin: 0 auto;
-        background: #2c5279;
-    }
-    
-    .nav ul a {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        padding: 15px 0 0 0;
-        border-bottom: none;
-        color: #FFF;
-    }
-    
-    .nav ul a:hover {
-        border-bottom: 1px solid #FFF;
-    }
-    
-    #menuToggle:checked ~ .menu {
-        display: none;
-        overflow: hidden;
-        position: relative;
-        left: 0px;
-        width: 100%;
-    }
 }
 
 @media (min-width: 40.063em) {
     .main-wrapper {
         max-width: 80%;   
-    }
-    
-    .logo {
-        max-width: 18em;   
-    }
-    
-    .nav ul {
-        width: 90%;   
     }
 }
 
@@ -214,37 +139,17 @@ footer p {
     .main-wrapper {
         max-width: 70%;   
     }
-    
-    .logo {
-        max-width: 20em;
-    }
-    
-    .nav ul {
-        width: 80%;   
-    }
 }
 
 @media (min-width: 64.063em) {
     .main-wrapper {
         max-width: 60%;   
     }
-    
-    .logo {
-        max-width: 22em;
-    }
-    
-    .nav ul {
-        width: 70%;   
-    }
 }
 
 @media (min-width: 80.063em) {
     .main-wrapper {
         max-width: 50%;   
-    }
-    
-    .logo {
-        max-width: 24em;
     }
 }
 
