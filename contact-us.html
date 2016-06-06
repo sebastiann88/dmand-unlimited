@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta charset="utf-8">
+    <title>dmand Unlimited</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!--
+        HEADER
+    -->
+    <div class="footer-flex relative">
+    <header class="main-header">
+        <div class="mobile-nav">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">&#9776;</label>
+            
+            <a class="logo hide-logo" href="index.html">
+                <img src="images/logo.png" alt="company-logo">
+            </a>
+            
+            <button id="cart" class="shopping-cart">&#9776;</button>
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="products-and-services.html">Products and Services</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="desktop-nav">
+            <a class="logo show-logo" href="index.html">
+                <img src="images/logo.png" alt="company-logo">
+            </a>
+                
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="products-and-services.html">Products and Services</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><button class="shopping-cart">&#9776;</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!--
+        MAIN CONTENT
+    -->
+    
+    <main class="main-wrapper">
+        <h1 class="text-center">Contact Us</h1>
+        <img src="http://placehold.it/1200x400/2c5279" alt="Main Content Image">
+
+        <form>
+            <h2>Get in Touch</h2>
+            
+            <fieldset>
+              
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+              
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="user_email">
+              
+              <label for="text">Phone:</label>
+              <input type="text" id="phone" name="user_phone">
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="user_message"></textarea>
+              
+            </fieldset>
+
+            <!--
+            <fieldset>
+              
+              <legend>Your Profile</legend>
+              
+              <label for="bio">Biography:</label>
+              <textarea id="bio" name="user_bio"></textarea>
+              
+              <label for="job">Job role:</label>
+              <select id="job" name="user_job">
+                <optgroup label="Web">
+                  <option value="frontend_developer">Front-End Developer</option>
+                  <option value="php_developer">PHP Developer</option>
+                  <option value="python_developer">Python Developer</option>
+                  <option value="rails_developer">Rails Developer</option>
+                  <option value="web_designer">Web Developer</option>
+                  <option value="wordpress_developer">Wordpress Developer</option>
+                </optgroup>
+                <optgroup label="Mobile">
+                  <option value="android_developer">Android Developer</option>
+                  <option value="ios_developer">iOS Developer</option>
+                  <option value="mobile_designer">Mobile Designer</option>
+                </optgroup>
+                <optgroup label="Business">
+                  <option value="business_owner">Business Owner</option>
+                  <option value="freelancer">Freelancer</option>
+                </optgroup>
+              </select>
+              
+              <label>Interests</label>
+              <input type="checkbox" id="development" value="interest_development" name="user_interest">
+              <label class="light" for="development">Development</label><br>
+              <input type="checkbox" id="design" value="interest_design" name="user_interest">
+              <label class="light" for="design">Design</label><br>
+              <input type="checkbox" id="business" value="interest_business" name="user_interest">
+              <label class="light" for="business">Business</label>
+            
+            </fieldset> -->
+              
+            <button type="submit">Contact Us</button>
+        </form>
+    </main>
+    
+    
+    </div>
+    <!--
+        FOOTER
+    -->
+    <footer>
+        <p>This company is called dmand Unlimited</p>
+        <p>© 2016 dmand Unlimited</p>
+    </footer>
+       
+</body>
+</html>

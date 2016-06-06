@@ -103,8 +103,8 @@ figure {
 }
 
 .order-now:hover {
-    color: #2c5279;
-    background: #d8d8d8;
+    color: #FFF;
+    background: #6c90b6;
     transition: 200ms;
 }
 
