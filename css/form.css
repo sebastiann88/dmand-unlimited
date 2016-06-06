@@ -54,7 +54,7 @@ select {
   border-radius: 2px;
 }
 
-button {
+#contact-us {
   display: block;
   padding: 19px 39px 19px 39px;
   color: #FFF;
@@ -73,7 +73,7 @@ button {
   margin-right: auto;
 }
 
-button:hover {
+#contact-us:hover {
   color: #FFF;
   background: #6c90b6;
 }
