@@ -60,7 +60,7 @@ body {
 }
 
 .unit-spacing {
-   padding: 1.5%; 
+   padding: 1.5%;
 }
 
 .relative {
@@ -108,15 +108,21 @@ figure {
     transition: 200ms;
 }
 
-#service-icons {
-    display: flex;
+#service-icons > img {
+    display: block;
     border-radius: 50%;
-    width: 8em;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 12em;
+    margin: 0 2em;
 }
 
-#service-icons ~ p {
+#service-icons > img ~ p {
     text-align: center;
+    width: 100%;
+}
+
+#service-icons {
+    margin: 0 auto;
 }
 
 /* --------------------------
@@ -174,11 +180,19 @@ footer p {
     .media-body > h4 {
         text-align: left;
     }
+
+    #service-icons > img {
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 40.063em) {
     .main-wrapper {
         max-width: 80%;   
+    }
+
+    #service-icons > img {
+        max-width: 10em;
     }
 }
 
