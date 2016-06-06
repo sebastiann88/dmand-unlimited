@@ -115,6 +115,26 @@ figure {
 }
 
 /* --------------------------
+  MEDIA OBJECTS
+--------------------------- */
+
+.media-img {
+    max-width: 12em;
+    min-width: 8em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.media-img img {
+    border-radius: 15px;
+} 
+
+.media-body > h4 {
+    text-align: center;
+}
+
+
+/* --------------------------
   FOOTER
 --------------------------- */
 
@@ -137,6 +157,18 @@ footer p {
     .main-wrapper {
         max-width: 90%;
         margin: 0 auto;
+    }
+
+    .media {
+        display: flex;
+    }
+
+    .media-img {
+        margin-right: 5%;
+    }
+
+    .media-body > h4 {
+        text-align: left;
     }
 }
 
