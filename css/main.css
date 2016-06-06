@@ -50,6 +50,11 @@ body {
   MAIN
 --------------------------- */
 
+.main-wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
 .site-logo {
     width: 110px;
 }
@@ -156,7 +161,6 @@ footer p {
     
     .main-wrapper {
         max-width: 90%;
-        margin: 0 auto;
     }
 
     .media {
