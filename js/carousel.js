@@ -26,6 +26,38 @@ function marqueeGatherData() {
         var panel_caption = $(this).html();
         marqueeVars.panelContent[index] = '<div class="marquee_panel" data-image-s="'+panel_image_s+'" style="background-image:url('+panel_image_l+');"><div class="overlay"></div><div class="panel_caption">'+panel_caption+'</div></div>';
     });
+    var marqueeTimer = setInterval(marqueeAdvance, 100);
+}
+
+function marqueeAdvance(){
+    var marqueeWidth = $('.marquee').width();
+    var currentSize = marqueeVars.screenSize;
+    
+    if(marqueeWidth > marqueeVars.mobileSize){
+        var newSize = 'large';
+    }else {
+       var newSize = 'small'; 
+    }
+    marqueeVars.screenSize = newSize;
+    
+    if(currentSize != newSize) {
+        if(marqueeVars.screenSize == 'large'){
+            marqueeMultiPanel();
+        }
+    }
+    
+    if(marqueeVars.timePassed == marqueeVars.timetoChange){
+        marqueeVars.timePassed = 0;   
+    } else {
+        marqueeVars.timePassed += 1;
+    }
+};
+
+function marqueeMultiPanel(){
+   marqueeVars.timePassed = 0;
+    marqueeVars.autoPlay = true;
+    var newHTML = '<div class="marquee_stage_large"><div class="marquee_container_1"></div><div class="marquee_nav"></div><div class="btn prev"></div><div class="btn next"></div></div>';
+    $('.marquee').html('').append(newHTML);
 }
 
 //debugger
