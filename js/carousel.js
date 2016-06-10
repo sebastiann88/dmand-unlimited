@@ -126,7 +126,7 @@ function marqueeMultiPanel(){
 function marqueeSinglePanel() {
     $('.marquee').html('').append('<div class="marquee_stage_small">'+marqueeVars.panelContent[0]+'</div>');
     var panel_image_s = $('.marquee .marquee_stage_small .marquee_panel').attr('data-image-s');
-    $('.marquee .marquee_stage_small .marquee_panel').css('backgroud-image','url('+panel-image-s+')')
+    $('.marquee .marquee_stage_small .marquee_panel').css('backgroud-image','url('+panel_image_s+')');
 }
 
 /*
