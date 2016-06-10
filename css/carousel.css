@@ -5,7 +5,7 @@
     font-size: 16px;
     height: 425px;
     max-width: 1200px;
-    margin: 0px auto 20px auto;
+    margin: 0 auto;
 }
 
 .marquee .marquee_data {
@@ -21,7 +21,6 @@
 .marquee .marquee_container_1,
 .marquee .marquee_container_2 {
     height: inherit;
-    position: absolute;
     top: 0px;
     left: 0px;
     width 100%;
@@ -37,6 +36,7 @@
 
 .marquee .marquee_panel {
     height: inherit;
+    position: absolute;
     width: 100%;
     text-align: center;
     background-repeat: no-repeat;
