@@ -129,6 +129,7 @@ function marqueeSinglePanel() {
     $('.marquee .marquee_stage_small .marquee_panel').css('backgroud-image','url('+panel-image-s+')')
 }
 
+/*
 //debugger
 var debugTimer = setInterval(setDebugger, 100);
     function setDebugger(){
@@ -141,4 +142,4 @@ var debugTimer = setInterval(setDebugger, 100);
         $('.var7').html('timePassed = ' + marqueeVars.timePassed);
         $('.var8').html('timetoChange = ' + marqueeVars.timetoChange);
         $('.var9').html('inTransition = ' + marqueeVars.inTransition);
-    };
+    }; */
