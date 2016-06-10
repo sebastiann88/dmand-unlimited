@@ -51,16 +51,11 @@ body {
 --------------------------- */
 
 .main-wrapper {
-    max-width: 95%;
     margin: 0 auto;
 }
 
 .site-logo {
     width: 110px;
-}
-
-.unit-spacing {
-   padding: 1.5%;
 }
 
 .relative {
@@ -167,6 +162,10 @@ footer p {
     
     .main-wrapper {
         max-width: 90%;
+    }
+    
+    .unit-spacing {
+        padding: 1.5%;
     }
 
     .media {
