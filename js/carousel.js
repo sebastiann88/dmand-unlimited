@@ -8,7 +8,7 @@ var marqueeVars = {
     currentPanel: 1,
     totalPanels: 3,
     timePassed: 0,
-    timetoChange: 70,
+    timetoChange: 60,
     duration: 1250,
     inTransition: false,
     panelContent: Array,
@@ -26,7 +26,7 @@ function marqueeGatherData() {
         var panel_caption = $(this).html();
         marqueeVars.panelContent[index] = '<div class="marquee_panel" data-image-s="'+panel_image_s+'" style="background-image:url('+panel_image_l+');"><div class="overlay"></div><div class="panel_caption">'+panel_caption+'</div></div>';
     });
-    var marqueeTimer = setInterval(marqueeAdvance,100);
+    var marqueeTimer = setInterval(marqueeAdvance,80);
 }
 
 function marqueeAdvance(){
