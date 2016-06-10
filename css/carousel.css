@@ -5,10 +5,41 @@
     font-size: 16px;
     height: 425px;
     max-width: 1200px;
-    margin: 0 auto 20px auto;
-    border: 1px solid #ccc;
+    margin: 0px auto 20px auto;
 }
 
 .marquee .marquee_data {
     display: none;
+}
+
+.marquee .marquee_stage_large {
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+.marquee .marquee_container_1,
+.marquee .marquee_container_2 {
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width 100%;
+}
+
+.marquee .marquee_container_1 {
+    z-index: 101;
+}
+
+.marquee .marquee_container_2 {
+    z-index: 102;
+}
+
+.marquee .marquee_panel {
+    height: inherit;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-size: cover;
 }
