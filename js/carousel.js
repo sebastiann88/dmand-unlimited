@@ -6,12 +6,12 @@ var marqueeVars = {
     mobileSize: 600,
     autoPlay: true,
     currentPanel: 1,
-    totalPanels: 0,
+    totalPanels: 3,
     timePassed: 0,
-    timetoChange: 60,
+    timetoChange: 70,
     duration: 1250,
     inTransition: false,
-    panelContent: Array
+    panelContent: Array,
 };
 
 $(document).ready(function(){
