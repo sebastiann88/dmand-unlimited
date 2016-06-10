@@ -168,6 +168,15 @@
     left: 0px;
 }
 
+.marquee .marquee_panel .panel_caption h3 {
+    font-size: 180%;
+    margin-bottom: 0.35em;
+}
+
+.marquee .marquee_panel .panel_caption p {
+    font-size: 120%;
+}
+
 @media screen and (max-width: 800px) {
     .marquee {
         font-size:  14px;
@@ -231,6 +240,16 @@
     .marquee .marquee_panel .panel_caption a.cta {
         padding: 8px 30px;
     }
+}
+
+@media (min-width: 100em) {
+    .marquee .marquee_panel .panel_caption p {
+        padding-bottom: 2em;
+        font-size: 140%;
+    }
+    
+    .marquee .marquee_panel .panel_caption h3 {
+    font-size: 200%;
 }
 
 

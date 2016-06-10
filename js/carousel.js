@@ -8,7 +8,7 @@ var marqueeVars = {
     currentPanel: 1,
     totalPanels: 3,
     timePassed: 0,
-    timetoChange: 70,
+    timetoChange: 200,
     duration: 1250,
     inTransition: false,
     panelContent: Array,
