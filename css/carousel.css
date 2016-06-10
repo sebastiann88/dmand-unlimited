@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300|PT+Serif:400);
 
 .marquee {
+    display: block;
     font-size: 16px;
     height: 425px;
     max-width: 1200px;
@@ -13,6 +14,7 @@
 }
 
 .marquee .marquee_stage_large {
+    display: block;
     height: inherit;
     position: relative;
     overflow: hidden;
@@ -59,3 +61,17 @@
 .marquee .marquee_panel .panel_caption a.cta { display: inline-block; background-color: rgba(255,255,255,0); text-transform: uppercase; color:#fff; font-size: .9em; padding: 6px 20px; transition: background-color .7s, border .7s; border: 1px solid rgba(255,255,255,.5); border-radius: 5px; text-decoration: none; }
 
 .marquee .marquee_panel .panel_caption a:hover { background-color: rgba(255,255,255,.6); color:#000; border-color: rgba(255,255,255,0); }
+
+.marquee .marquee_stage_small {
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+.marquee .marquee_stage_small .marquee_panel {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

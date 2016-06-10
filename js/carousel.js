@@ -26,7 +26,7 @@ function marqueeGatherData() {
         var panel_caption = $(this).html();
         marqueeVars.panelContent[index] = '<div class="marquee_panel" data-image-s="'+panel_image_s+'" style="background-image:url('+panel_image_l+');"><div class="overlay"></div><div class="panel_caption">'+panel_caption+'</div></div>';
     });
-    var marqueeTimer = setInterval(marqueeAdvance, 100);
+    var marqueeTimer = setInterval(marqueeAdvance,100);
 }
 
 function marqueeAdvance(){
@@ -43,6 +43,8 @@ function marqueeAdvance(){
     if(currentSize != newSize) {
         if(marqueeVars.screenSize == 'large'){
             marqueeMultiPanel();
+        }else {
+            marqueeSinglePanel();
         }
     }
     
@@ -82,6 +84,12 @@ function marqueeMultiPanel(){
     });
     
     $('.marquee_nav div:first').trigger('click');
+}
+
+function marqueeSinglePanel() {
+    $('.marquee').html('').append('<div class="marquee_stage_small">'+marqueeVars.panelContent[0]+'</div>');
+    var panel_image_s = $('.marquee .marquee_stage_small .marquee_panel').attr('data-image-s');
+    $('.marquee .marquee_stage_small .marquee_panel').css('backgroud-image','url('+panel-image-s+')')
 }
 
 //debugger
