@@ -35,7 +35,7 @@ function marqueeAdvance(){
     
     if(marqueeWidth > marqueeVars.mobileSize){
         var newSize = 'large';
-    }else {
+    } else {
        var newSize = 'small'; 
     }
     marqueeVars.screenSize = newSize;
@@ -58,6 +58,17 @@ function marqueeMultiPanel(){
     marqueeVars.autoPlay = true;
     var newHTML = '<div class="marquee_stage_large"><div class="marquee_container_1"></div><div class="marquee_nav"></div><div class="btn prev"></div><div class="btn next"></div></div>';
     $('.marquee').html('').append(newHTML);
+    
+    for(i=0; i < marqueeVars.totalPanels; i++) {
+        $('.marquee_nav').append('<div>x</div>');
+    }
+    
+    $('.marquee').hover(function(){
+        marqueeVars.autoPlay = false;
+    },function(){
+        marqueeVars.autoPlay = true;
+        marqueeVars.timePassed = Math.floor(marqueeVars.timetoChange / 2);
+    });
 }
 
 //debugger
