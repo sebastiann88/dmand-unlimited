@@ -5,7 +5,7 @@
 header {
     width: 100%;
     text-align: center;
-    background: #2c5279;
+    border-bottom: 1px solid #2c5279;
 }
 
 header h2 {
@@ -18,12 +18,11 @@ header h2 {
     justify-content:flex-end;
     width: 3em;
     height: 3em;
+    margin-top: 5px;
     padding: 10px 16px;
-    background: #FFF;
+    background-color: #FFF;
     color: #2c5279;
     cursor: pointer;
-    margin: 5px 0;
-    border-radius: 5px;
     text-shadow:none;
     border:none;
     box-shadow:none;
@@ -63,7 +62,7 @@ nav a {
     padding: 15px;
     border-bottom: 1px solid #FFF;
     width: 100%;
-    color: #FFF;
+    color: #2c5279;
 }
 
 .menu {
@@ -143,7 +142,6 @@ nav a {
 .nav {
     display: none;
     overflow: hidden;
-    background: #2c5279;
 }
 
 @media (min-width: 30.063em) {
@@ -191,7 +189,7 @@ nav a {
         overflow: hidden;
     }
     
-    #cart {
+    .shopping-cart {
         display: none;
         overflow: hidden;
     }
@@ -199,8 +197,8 @@ nav a {
     .nav {
         display: flex;
         flex-direction: row;
+        margin-bottom: 1.5em;
         overflow: visible;
-        background: #2c5279;;
     }
     
     .nav ul {
@@ -209,7 +207,6 @@ nav a {
         list-style-type: none;
         margin: 0 auto;
         width: 100%;
-        background: #2c5279;
     }
     
     .nav ul a {
@@ -218,11 +215,11 @@ nav a {
         text-decoration: none;
         padding: 15px 0 2px 0;
         border-bottom: none;
-        color: #FFF;
+        color: #2c5279;
     }
     
     .nav ul a:hover {
-        border-bottom: 1px solid #FFF;
+        border-bottom: 1px solid #2c5279;
     }
     
     #menuToggle:checked ~ .menu {
@@ -242,6 +239,11 @@ nav a {
     
     .nav ul {
         width: 90%;   
+    }
+    
+    .shopping-cart {
+        display: none;
+        overflow: hidden;
     }
 }
 
