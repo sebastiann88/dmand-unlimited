@@ -552,6 +552,10 @@
   .unit-pull-m-3-4 {
     left: -75.0000%;
   }
+    
+.unit-offset-m-1-6 {
+    margin-left: 16.6667%;
+    }
 
   .unit-m-1-2,
   .m-1-2,
