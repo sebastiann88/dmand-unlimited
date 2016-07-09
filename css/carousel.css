@@ -83,6 +83,8 @@
     color:#000; 
     border-color: rgba(255,255,255,0); }
 
+/*
+
 .marquee .overlay {
     position: absolute;
     left: 0px;
@@ -91,7 +93,7 @@
     height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0)45%, rgba(0,0,0,0.7)70%);
     background-size: 100%;
-}
+} */
 
 .marquee .marquee_nav {
     position: absolute;
@@ -234,7 +236,7 @@
         padding: 10px 10px 20px 10px;
         width: 100%;
         bottom: 0px;
-        background-color: rgba(0,0,0,0.65);
+        background-color: rgba(44,82,121,0.65);
     }
     
     .marquee .marquee_panel .panel_caption a.cta {
