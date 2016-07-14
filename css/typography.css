@@ -31,6 +31,16 @@ h1 {
 
 }
 
+.h1 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    text-align: center;
+    font-size: 1.802rem;
+    line-height: 1.6648;
+    margin: 0.5em 0.5rem 0.75em;
+    color: #2c5279;
+    
+}
+
 .about-section > h1, .push-top-double > h1 {
     margin: 0 0.75rem 0.75rem;
     font-size: 1.6018rem;
