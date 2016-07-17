@@ -135,8 +135,10 @@ figure {
 }
 
 table {
-  max-width: 960px;
-  margin: 10px auto;
+    width: 100%;
+    max-width: 907px;
+    margin-top: 5px;
+    margin: 10px auto;
 }
 
 caption {
@@ -276,6 +278,7 @@ footer p {
     #table-desktop {
         display: block;
         overflow: visible;
+        margin: 10px auto;
     }
 }
 
@@ -283,6 +286,7 @@ footer p {
     .main-wrapper {
         max-width: 50%;   
     }
+    
 }
 
 
