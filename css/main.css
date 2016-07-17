@@ -54,10 +54,6 @@ body {
     margin: 0 auto;
 }
 
-.site-logo {
-    width: 110px;
-}
-
 .relative {
     position: relative;
 }
@@ -70,12 +66,12 @@ img {
     width: 100%;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: #6c90b6;
 }
 
-a:hover {
+footer a:hover {
     border-bottom: 1px solid #6c90b6;
 }
 

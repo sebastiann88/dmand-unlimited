@@ -130,8 +130,7 @@ nav a {
     text-decoration: none;
     margin: 0 auto;
     padding: 0.2em 0 0 0;
-    width: 100%;
-    max-width: 12em;
+    width: 10em;
 }
 
 .show-logo {
@@ -146,9 +145,16 @@ nav a {
 
 @media (min-width: 30.063em) {
     
+    body {
+        padding-top: 151.59px;
+    }
+    
     .main-header {
         justify-content: flex-end;
-        width: 100%; 
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        top: 0;
     }
     
     .mobile-nav {
@@ -164,7 +170,7 @@ nav a {
     }
     
     .logo {
-        max-width: 14em;
+        width: 11em;
         padding: 0.75em 0 0.35em;
     }
     
@@ -233,8 +239,8 @@ nav a {
 
 @media (min-width: 40.063em) {
     
-    .logo {
-        max-width: 14.5em;   
+    body {
+        padding-top: 157.59px;
     }
     
     .nav ul {
@@ -245,13 +251,13 @@ nav a {
         display: none;
         overflow: hidden;
     }
+    
+    .logo {
+        width: 12em;
+    }
 }
 
 @media (min-width: 60.063em) {
-    
-    .logo {
-        max-width: 15em;
-    }
     
     .nav ul {
         width: 80%;   
@@ -260,16 +266,16 @@ nav a {
 
 @media (min-width: 64.063em) {
     
-    .logo {
-        max-width: 15em;
-    }
-    
     .nav ul {
         width: 70%;   
     }
 }
 
 @media (min-width: 80.063em) {
+    
+    body {
+        padding-top: 91.59px;
+    }
     
     .desktop-nav {
         flex-direction: row;
@@ -279,7 +285,7 @@ nav a {
     }
     
     .logo {
-        max-width: 17em;
+        width: 14em;
     }
     
     .nav ul {
