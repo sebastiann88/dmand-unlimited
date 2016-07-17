@@ -126,6 +126,55 @@ figure {
 }
 
 /* --------------------------
+  TABLE
+--------------------------- */
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+
+/* --------------------------
   MEDIA OBJECTS
 --------------------------- */
 
@@ -191,6 +240,10 @@ footer p {
     #service-icons > img {
         margin: 0 auto;
     }
+    
+    th, td {
+        padding: 20px 10px;   
+    }
 }
 
 @media (min-width: 40.063em) {
@@ -200,6 +253,10 @@ footer p {
 
     #service-icons > img {
         max-width: 10em;
+    }
+    
+    th, td {
+        padding: 20px;   
     }
 }
 

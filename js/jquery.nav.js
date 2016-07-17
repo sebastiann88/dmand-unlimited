@@ -29,7 +29,7 @@
 		this.sections = {};
 		this.didScroll = false;
 		this.$doc = $(document);
-		this.docHeight = this.$doc.height();
+		this.docHeight = $('body').innerHeight();
 	};
 
 	// the plugin prototype

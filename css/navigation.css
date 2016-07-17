@@ -148,6 +148,10 @@ nav a {
     body {
         padding-top: 151.59px;
     }
+
+    #section-1, #section-2, #section-3, #section-4 {
+        padding: 2em 0;   
+    }
     
     .main-header {
         justify-content: flex-end;
