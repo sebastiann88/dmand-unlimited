@@ -70,6 +70,15 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #6c90b6;
+}
+
+a:hover {
+    border-bottom: 1px solid #6c90b6;
+}
+
 figure {
     position: relative;
     margin: 0;
