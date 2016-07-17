@@ -129,6 +129,11 @@ figure {
   TABLE
 --------------------------- */
 
+#table-desktop {
+    display: none;
+    overflow: hidden;
+}
+
 table {
   max-width: 960px;
   margin: 10px auto;
@@ -158,7 +163,7 @@ tr:nth-child(even) {
 
 th, td {
   text-align: left;
-  padding: 20px 0;
+  padding: 20px 10px;
   font-weight: 300;
 }
 
@@ -240,10 +245,6 @@ footer p {
     #service-icons > img {
         margin: 0 auto;
     }
-    
-    th, td {
-        padding: 20px 10px;   
-    }
 }
 
 @media (min-width: 40.063em) {
@@ -253,10 +254,6 @@ footer p {
 
     #service-icons > img {
         max-width: 10em;
-    }
-    
-    th, td {
-        padding: 20px;   
     }
 }
 
@@ -269,6 +266,16 @@ footer p {
 @media (min-width: 64.063em) {
     .main-wrapper {
         max-width: 60%;   
+    }
+    
+    #table-mobile {
+        display: none;
+        overflow: hidden;
+    }
+    
+    #table-desktop {
+        display: block;
+        overflow: visible;
     }
 }
 
