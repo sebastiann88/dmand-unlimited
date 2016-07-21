@@ -223,6 +223,10 @@ nav a {
         width: 100%;
     }
     
+    .nav ul li {
+        margin-bottom: 2px;   
+    }
+    
     .nav ul a {
         display: flex;
         flex-direction: row;
@@ -306,7 +310,7 @@ nav a {
     }
     
     .nav ul li {
-        margin: 1.5em 1.5em 2px;
+        margin: 1.5em 1.5em 5px;
     }
 }
 
