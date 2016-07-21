@@ -28,10 +28,6 @@ header h2 {
     box-shadow:none;
 }
 
-.current {
-    border-bottom: 1px solid #2c5279;
-}
-
 .menu a {
     text-decoration: none;
     color: #FFF;
@@ -155,6 +151,10 @@ nav a {
 
     #section-1, #section-2, #section-3, #section-4 {
         padding: 2em 0;   
+    }
+    
+    .current {
+        border-bottom: 1px solid #2c5279;
     }
     
     .main-header {
@@ -306,7 +306,7 @@ nav a {
     }
     
     .nav ul li {
-        margin: 1.5em 1.5em 0;   
+        margin: 1.5em 1.5em 2px;
     }
 }
 
