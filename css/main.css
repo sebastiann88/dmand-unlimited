@@ -121,13 +121,25 @@ figure {
     width: 100%;
 }
 
-#service-icons {
+#service-icons div {
+    display: block;
+    width: 100%;
+    max-width: 12.2em;
+    margin: 0 auto 2em auto;
+}
+
+#service-icons div:last-child {
     margin: 0 auto;
 }
 
 .contact-info {
     text-align: center;
     margin-bottom: 3em;
+}
+
+.contact-info div {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .contact-info div h3 {
@@ -253,8 +265,9 @@ footer p {
         text-align: left;
     }
 
-    #service-icons > img {
+    #service-icons div {
         margin: 0 auto;
+        max-width: 12.5em;
     }
 }
 
