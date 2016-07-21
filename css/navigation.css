@@ -38,7 +38,7 @@ header h2 {
 }
 
 .menu li {
-    list-style-type: none;
+    color: #2c5279;
 }
 
 .menu li:hover {
@@ -236,6 +236,10 @@ nav a {
         border-bottom: 1px solid #2c5279;
     }
     
+    .nav ul a:active {
+        border-bottom: none;   
+    }
+    
     #menuToggle:checked ~ .menu {
         display: none;
         overflow: hidden;
@@ -302,7 +306,7 @@ nav a {
     }
     
     .nav ul li {
-        padding: 1.5em 1.5em 0;   
+        margin: 1.5em 1.5em 0;   
     }
 }
 
