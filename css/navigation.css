@@ -28,6 +28,10 @@ header h2 {
     box-shadow:none;
 }
 
+.current {
+    border-bottom: 1px solid #2c5279;
+}
+
 .menu a {
     text-decoration: none;
     color: #FFF;
